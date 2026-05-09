@@ -20,23 +20,17 @@ atividade = input("O que você estava fazendo? ")
 companhia = input("Quem estava com você? ")
 print("-" * 50)
 
-if local == "casa" and atividade == "assistindo filme" and companhia == "amigos":
-    suspeita = "Sua história parece consistente. Você é inocente!✔️"
-else:
-    suspeita = "Sua história tem inconsistências. Você é suspeito!❌"
-print("\n")
+# if local == "casa" and atividade == "assistindo filme" and companhia == "amigos":
+#     suspeita = "Sua história parece consistente. Você é inocente!✔️"
+# else:
+#     suspeita = "Sua história tem inconsistências. Você é suspeito!❌"
+# print("\n")
 
-if local == "rua" and atividade == "caminhando" and companhia == "amigo":
-    suspeita = "Sua história parece suspeita. Você é suspeito!❌"
-else:
-    inocente = "Sua história tem consistências. Você é inocente!✔️"
-print("\n") 
-
-if local == "casa" and atividade == "bolinho" and companhia == "mamãe":
-    inocente = "Sua história parece consistente. Você é inocente!✔️"
-else:
-    suspeita = "Sua história tem inconsistências. Você é suspeito!❌"
-print("\n")
+# if local == "rua" and atividade == "caminhando" and companhia == "amigo":
+#     suspeita = "Sua história parece suspeita. Você é suspeito!❌"
+# else:
+#     inocente = "Sua história tem consistências. Você é inocente!✔️"
+# print("\n") 
 
 
 print("Relatório Investigativo: 🔎")
@@ -46,9 +40,12 @@ print(f"Atividade: {atividade}")
 print(f"Companhia: {companhia}")
 print(f"Então, ontem à noite, você estava em {local}, fazendo {atividade} com {companhia}.")
 
-if "suspeita" > "inocente":
-    print("Conclusão: Sua história tem inconsistências. Você é suspeito!❌")
+if local == "casa" and atividade == "bolinho" and companhia == "mamãe":
+    print( "Sua história parece consistente. Você é inocente!✔️")
 else:
-    print("Conclusão: Sua história parece consistente. Você é inocente!✔️")
+    print("Sua história tem inconsistências. Você é suspeito!❌")
+
+
+
 
 

@@ -30,7 +30,7 @@ print("-" * 50)
 #     suspeita = "Sua história parece suspeita. Você é suspeito!❌"
 # else:
 #     inocente = "Sua história tem consistências. Você é inocente!✔️"
-# print("\n") 
+#   
 
 
 print("Relatório Investigativo: 🔎")
